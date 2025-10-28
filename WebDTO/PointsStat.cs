@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assets.WebDTO
+namespace Assets.Scripts.WebDTO
 {
     [Serializable]
     public class PointsStat
@@ -14,5 +14,8 @@ namespace Assets.WebDTO
         public float dist;
         public float distPoints;
         public float sum;
+
+        public float windX;
+        public float windY;
     }
 }
